@@ -1,0 +1,6 @@
+web:
+  image: nginx
+  environment:
+   - VIRTUAL_HOST=tuncer.me,www.tuncer.me
+  volumes:
+   - .:/usr/share/nginx/html:ro
